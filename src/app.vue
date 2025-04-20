@@ -29,11 +29,11 @@
     </div>
     <div>
       <label for="num1">Número 1:</label>
-      <input id="num1" type="number" v-model="num1" @keyup="calculato" />
+      <input id="num1" type="number" v-model="num1" @keyup="calculo" />
     </div>
     <div>
       <label for="operador">Operador:</label>
-      <select id="operador" v-model="operador" @change="calculato">
+      <select id="operador" v-model="operador" @change="calculo">
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="*">*</option>
